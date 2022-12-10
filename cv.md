@@ -1,4 +1,4 @@
-## [https://github.com/NastyaMix/rsschool-cv/new/gh-pages#rsschool-cv](rsschool-cv)
+## [https://nastyamix.github.io/rsschool-cv/cv](rsschool-cv)
 
 # Anastasiya Mikhalko
 ### Contact info
@@ -24,5 +24,5 @@ that receive a list of integers as input, and return the largest and lowest numb
         * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
         * HTML and CSS on htmlacademy.ru
 ### Languages
-        *Russian - native
-        *English - A2
+        * Russian - native
+        * English - A2
