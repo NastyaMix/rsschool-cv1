@@ -1,83 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Anastasiya Mikhalko CV</title>
-    	<link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-	<script src="scripts.js"></script>
-        <header>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anastasiya Mikhalko CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+</head>
+<body >
+    <header class="header">
+        <div class="container header-container">
             <nav class="nav">
-                <a class="nav-item" href="#about">About myself</a>
-                <a class="nav-item" href="#code">Code Example</a>
-                <a class="nav-item" href="#education">Education</a>
+                <ul class="nav-list">
+                    <li class= "nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+                    <li class= "nav-item"><a class="nav-link" href="#about">About me</a></li>
+                    <li class= "nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class= "nav-item"><a class="nav-link" href="#code">Code</a></li>
+                    <li class= "nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+                    <li class= "nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class= "nav-item"><a class="nav-link" href="#languages">Languages</a></li>
+                </ul>
             </nav>
-            <div class="name">
-		<h1>Anastasiya Mikhalko</h1>
-	</div>
-		<img src="img/profile-photo.png" alt="My photo" class="profile-photo">
-	</header>
-        <main>
-            <section>
-                <div id="about">
-                    <h2 >About myself</h2>
-                </div>
-                <div>
-                    <p>I want to study in RS School and become Frontend Developer.</p>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="assets/img/image.jpg" alt="My photo" class="section-profile-photo">
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Anastasiya Mikhalko</h1>
                 </div>
             </section>
-            <section>
-                <div id="code">
-                    <h2>Code Example</h2>
-                </div>
-                <div>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">
+                      Email: <a href="mailto:kravchenkonastik@gmail.com" title="email">kravchenkonastik@gmail.com</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                      Github: <a href="https://github.com/NastyaMix" title="github">NastyaMix</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                      Telegram: <a href="https://t.me/nastya_mix" title="telegram">@nastya_mix</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                      Discord: <a href="https://discord.gg/PYAaww5u" title="discord">Nastyamix#2295</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        Gomel, Belarus
+                    </li>
+                  </ul>
+            </section>
+            <section class="section" id="about">
+                <h2 class="section-title">About me</h2>
+                    <p>
+                        I want to study in RS School and become Frontend Developer.
+                    </p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                    <p>
+                        Belorussian State Unversity of Transport
+                    </p>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre">
                     <code>
-<br> Your task is to make two functions ( max and min, or maximum and minimum,etc., <br> depending on the language ) that receive a list of integers asinput, <br> and return the largest and lowest number in that list, respectively.
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+    return Math.abs(dadYearsOld - 2 * sonYearsOld);
+}
                     </code>
-                </div>
+                </pre>
             </section>
-            <section>
-                <div id="education">
-                    <h2>Education</h2>
-                </div>
-                <div>
-                    <ul>
-                        <li>HTML and CSS on <a href="https://htmlacademy.ru/courses/basic-html-css"> htmlacademy.ru </a></li>
-                        <li>JavaScript on <a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
-                        <li>RS Schools Course JavaScript/Front-end. Stage 0 (in progress)</li>
-                    </ul>
-                </div>
+            <section class="section " id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                    <li class="section-item">Введение в Git <a href="https://ru.hexlet.io/courses/intro_to_git/goto">ru.hexlet.io</a></li>
+                    <li class="section-item">HTML: обучение html верстке для начинающих <a href="https://code-basics.com/ru/languages/html">code-basics.com</a></li>
+                    <li class="section-item">CSS: онлайн обучение с нуля <a href="https://code-basics.com/ru/languages/css">code-basics.com</a></li>
+                    <li class="section-item">HTML and CSS on <a href="https://htmlacademy.ru/courses/basic-html-css">htmlacademy.ru</a></li>
+                    <li class="section-item">JavaScript on <a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
+                    <li class="section-item">RS Schools Course JavaScript/Front-end. Stage 0 (in progress)</li>
+                </ul>
             </section>
-            <aside>
-                <section>
-                    <h2>Skills</h2>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Git</li>
+                <section class="section " id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="section-list">
+                        <li class="section-item">HTML</li>
+                        <li class="section-item">CSS</li>
+                        <li class="section-item">JavaScript</li>
+                        <li class="section-item">Git</li>
                     </ul>
                 </section>
-                <section>
-                    <h2>Languages</h2>
-                    <ul>
-                        <li>Russian - native</li>
-                        <li>English - A2</li>
+                <section class="section section-languages" id="languages">
+                    <h2 class="section-title">Languages</h2>
+                    <ul class="section-list">
+                        <li class="section-item">Russian - native</li>
+                        <li class="section-item">English - A2</li>
                     </ul>
                 </section>
-            </aside>
-        </main>
-        <footer>
-            <div>2022</div>
-            <div>
+         </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="rss">
                 <a href="https://rs.school/js/">Rsschool</a>
             </div>
             <div>
-                <a href="https://github.com/NastyaMix"> My GitHub</a>
+                2022
             </div>
-        </footer>
-    </body>
+            <div class="github">
+                <a href="https://github.com/NastyaMix">My GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
