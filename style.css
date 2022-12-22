@@ -222,13 +222,9 @@
     color: #feb386;
   }
 
-
-  .rss a{
-    color: #fff;
-    text-decoration: none;
-  }
-  .rss a:hover {
-    color: #feb386;
+ img.rss {
+    width: 110px;
+    height: 35px;
   }
 
 @media (max-width: 1440px) {
